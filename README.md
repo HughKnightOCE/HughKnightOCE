@@ -28,7 +28,7 @@
 
 ### 🚀 About Me
 
-- 🔐 Second-year **Cyber Security student** focused on networks, automation, and secure systems  
+- 🔐 Final-year **Cyber Security student** focused on networks, automation, and secure systems  
 - 🛠️ Building practical tools in **Python, C#, and PowerShell**  
 - 🎓 **STEM Educator** teaching programming and digital technologies  
 - 💼 Actively exploring roles in **IT Support, Networking, and Cyber Security**  
