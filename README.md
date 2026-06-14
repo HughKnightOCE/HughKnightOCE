@@ -1,9 +1,9 @@
 <h1 align="center">Hi, I'm Hugh Knight 👋</h1>
-<h3 align="center">Cyber Security Student • Developer • STEM Educator • Technical Problem Solver</h3>
+<h3 align="center">Cyber Security Student • Local AI Developer • STEM Educator • Technical Problem Solver</h3>
 
 <p align="center">
   📍 Ballarat, Victoria, Australia • 🎓 Bachelor of Cyber Security, Deakin University • 🔧 STEM & Technology Educator<br>
-  💻 Building practical security, networking, automation, Windows diagnostic, and local AI tools
+  💻 Building practical security, networking, automation, Windows diagnostic, and local AI software
 </p>
 
 ---
@@ -16,6 +16,8 @@
   <img src="https://img.shields.io/badge/PowerShell-5391FE?style=flat&logo=powershell&logoColor=white" />
   <img src="https://img.shields.io/badge/Bash-4EAA25?style=flat&logo=gnubash&logoColor=white" />
   <img src="https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white" />
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white" />
+  <img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat&logo=huggingface&logoColor=black" />
   <img src="https://img.shields.io/badge/SQLite-003B57?style=flat&logo=sqlite&logoColor=white" />
   <img src="https://img.shields.io/badge/Wireshark-1679A7?style=flat&logo=wireshark&logoColor=white" />
   <img src="https://img.shields.io/badge/Cisco-1BA0D7?style=flat&logo=cisco&logoColor=white" />
@@ -35,12 +37,12 @@ I am a final-year **Bachelor of Cyber Security student at Deakin University** an
 
 In my educator role, I help secondary students develop practical skills across programming, virtual reality, game design, digital technologies, laser cutting, 3D printing, and rapid prototyping. This experience has strengthened my ability to communicate technical concepts clearly, adapt to different users, solve problems under pressure, and document processes in a way that others can follow.
 
-Outside university and work, I design and develop practical tools that address real problems. My portfolio includes network discovery and port-scanning utilities, Windows crash diagnostics, malware hash analysis, API testing software, security auditing tools, productivity dashboards, AI-agent frameworks, and **LunahAI**, my developing local-first AI desktop platform.
+Outside university and work, I design and develop practical tools that address real problems. My portfolio includes network discovery and port-scanning utilities, Windows crash diagnostics, malware hash analysis, API testing software, security auditing tools, productivity dashboards, AI-agent frameworks, and **LunahAI**, my publicly available local-first desktop AI assistant.
 
 - 🔐 Studying network security, secure coding, cryptography, object-oriented development, and computer networks
 - 🌐 Hands-on experience with Wireshark, Cisco Packet Tracer, TCP/IP, routing, packet analysis, and network diagnostics
-- 🛠️ Building applications in Python, C#, PowerShell, Bash, FastAPI, Tkinter, PyQt/PySide, and SQLite
-- 🤖 Developing local AI applications with an emphasis on privacy, offline operation, usability, and practical workflows
+- 🛠️ Building applications in Python, C#, PowerShell, Bash, FastAPI, Tkinter, CustomTkinter, PyQt/PySide, and SQLite
+- 🤖 Developing local AI applications with model abstraction, offline inference, voice interaction, document context, privacy controls, and consumer GPU acceleration
 - 🖥️ Comfortable troubleshooting Windows and Linux systems, hardware, drivers, logs, storage, and networking issues
 - 📝 Focused on readable code, clear documentation, ethical testing, maintainability, and practical user outcomes
 - 🤝 Able to combine technical problem-solving with communication, teaching, collaboration, and user support
@@ -50,27 +52,38 @@ Outside university and work, I design and develop practical tools that address r
 
 ### 🌙 Featured Build — LunahAI
 
-**LunahAI** is the primary local AI product I am currently developing. The project is intended to become a self-contained desktop application that combines a modern conversational interface with a locally hosted language model, allowing users to work with AI without depending entirely on cloud APIs or external subscriptions.
+**LunahAI** is a local-first Windows desktop AI assistant that I am designing and developing to run supported language models on the user's own hardware. The project has now moved beyond the planning stage: its public landing repository is live and an initial **pre-release is available for testing**.
 
-The planned application is being designed around:
+<p>
+  <a href="https://github.com/HughKnightOCE/LunahAI-Desktop">
+    <img src="https://img.shields.io/badge/View-LunahAI%20Repository-181717?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+  <a href="https://github.com/HughKnightOCE/LunahAI-Desktop/releases">
+    <img src="https://img.shields.io/badge/Download-Pre--Release-6f42c1?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+</p>
 
-- **Local-first AI:** run supported language models directly on the user's own hardware
-- **Privacy and control:** provide offline operation and clear control over model, file, and system access
-- **Unified desktop experience:** package the interface and local model workflow into a single distributable application
-- **Document workflows:** support user-provided files, project-based organisation, conversation history, and knowledge retrieval
-- **Extensible architecture:** allow additional tools, skills, agents, and model backends to be integrated over time
-- **Practical usability:** make local AI approachable for users who do not want to manually configure multiple development tools
+The current pre-release demonstrates:
 
-The core application remains under active development. I am currently creating its **public landing repository**, project documentation, and public-facing roadmap before presenting the wider project on GitHub.
+- **Local and offline AI:** supported models can run locally without requiring token-based cloud inference
+- **Modern desktop experience:** a responsive ChatGPT-style CustomTkinter interface with conversation branching, archive search, hardware monitoring, and chat export
+- **Flexible model architecture:** model-agnostic service layers with support for Transformers and GGUF inference backends
+- **Document-aware workflows:** documents can be pinned into active chats and used as contextual information
+- **Multi-agent collaboration:** sequential agent pipelines can combine specialist roles while controlling memory and VRAM usage
+- **Offline voice tools:** local speech-to-text through Vosk and Windows SAPI-based text-to-speech
+- **Security controls:** configurable network isolation and scoped file-system access modes
+- **Consumer hardware support:** NVIDIA CUDA and AMD DirectML pathways, including custom DirectML compatibility and memory-reduction work
+
+The public repository now acts as the project's technical landing page, documentation hub, installation guide, architectural overview, and distribution point for early builds. LunahAI remains under active development, and the current release should be treated as pre-release software while features, packaging, testing, and usability continue to improve.
 
 ---
 
 ### 💼 What I Bring
 
 - **Practical project ownership:** I take ideas from problem definition through architecture, development, testing, documentation, packaging, and release.
-- **Product thinking:** Projects such as LunahAI require me to consider user experience, privacy, deployment, maintainability, branding, documentation, and long-term extensibility—not only individual code features.
+- **Product thinking:** LunahAI requires consideration of user experience, privacy, deployment, hardware compatibility, maintainability, branding, documentation, and long-term extensibility—not only individual code features.
 - **Technical communication:** Teaching STEM has developed my ability to explain complex systems clearly to both technical and non-technical audiences.
-- **Security-minded development:** I consider authorisation, logging, error handling, data exposure, responsible use, and maintainability when building tools.
+- **Security-minded development:** I consider authorisation, logging, error handling, data exposure, responsible use, access controls, and maintainability when building tools.
 - **Continuous learning:** I actively extend university concepts through labs, independent development, local AI experimentation, and hands-on infrastructure work.
 
 ---
@@ -79,7 +92,7 @@ The core application remains under active development. I am currently creating i
 
 | Project | Description | Technologies | Current State |
 |---------|-------------|--------------|---------------|
-| 🌙 **LunahAI** | Local-first AI desktop platform designed to combine a conversational interface, locally hosted language models, document workflows, project organisation, privacy controls, and optional system integration in one distributable application. | Python, local LLMs, desktop UI, model integration | 🚧 Active development — public landing repository in progress |
+| [🌙 LunahAI Desktop](https://github.com/HughKnightOCE/LunahAI-Desktop) | Local-first Windows AI assistant with offline model inference, document context, conversation branching, multi-agent workflows, voice interaction, security controls, and consumer GPU acceleration. | Python, CustomTkinter, Transformers, GGUF, Vosk, SAPI, DirectML | 🌐 Public pre-release available |
 | [🤖 Agent-Skill-Kit (ASK) v2.0](https://github.com/HughKnightOCE/Agent-Skill-Kit-ASK-) | Local-first, MCP-ready framework that gives AI agents reusable skills through a CLI, desktop GUI, YAML manifests, and automated GitHub Actions updates. | Python, MCP, PyQt6, YAML, GitHub Actions | 🚀 Active development — v2.0 |
 | [❗ BSOD Analyzer v0.9.1](https://github.com/HughKnightOCE/BSOD_Analyser) | Windows diagnostic application for BSOD event analysis, crash correlation, hardware checks, driver updates, live monitoring, and report generation. | Python, PowerShell, Tkinter, Windows Event Logs | ✅ Released with standalone executable |
 | [🌐 API Client Pro](https://github.com/HughKnightOCE/API-Client) | API testing platform with a CLI, FastAPI backend, web dashboard, saved requests, authentication, request chaining, GraphQL, mock endpoints, and performance metrics. | Python, FastAPI, Typer, Rich, HTML | 🧪 Functional platform — active refinement |
@@ -95,8 +108,8 @@ The core application remains under active development. I am currently creating i
 
 ### 🎯 Current Focus
 
-- Developing **LunahAI**, a distributable local-first AI desktop application with a modern chat interface, locally hosted model support, document workflows, privacy controls, offline capability, and configurable system access.
-- Creating the **LunahAI public landing repository**, documentation, project identity, feature roadmap, and a clear presentation of the application's architecture and development direction.
+- Testing and expanding the public **LunahAI pre-release**, including model compatibility, Windows packaging, performance, security boundaries, documentation, and user experience.
+- Developing LunahAI's local model management, document workflows, multi-agent system, offline voice suite, privacy controls, and NVIDIA/AMD hardware support.
 - Improving my strongest repositories with automated tests, screenshots, issue tracking, clearer release notes, and reproducible installation steps.
 - Completing my cyber security degree while preparing for industry placements, internships, graduate programs, and junior technical roles.
 - Expanding my practical capability in networking, incident analysis, secure software development, Linux, cloud fundamentals, defensive security operations, and local AI systems.
