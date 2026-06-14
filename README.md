@@ -1,9 +1,9 @@
 <h1 align="center">Hi, I'm Hugh Knight 👋</h1>
-<h3 align="center">Cyber Security Student • Local AI Developer • STEM Educator • Technical Problem Solver</h3>
+<h3 align="center">Cyber Security Student • Local AI & Python Developer • STEM Educator</h3>
 
 <p align="center">
   📍 Ballarat, Victoria, Australia • 🎓 Bachelor of Cyber Security, Deakin University • 🔧 STEM & Technology Educator<br>
-  💻 Building practical security, networking, automation, Windows diagnostic, and local AI software
+  💻 Building practical security, networking, automation, local AI, and data-driven software
 </p>
 
 ---
@@ -16,6 +16,9 @@
   <img src="https://img.shields.io/badge/PowerShell-5391FE?style=flat&logo=powershell&logoColor=white" />
   <img src="https://img.shields.io/badge/Bash-4EAA25?style=flat&logo=gnubash&logoColor=white" />
   <img src="https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white" />
+  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white" />
+  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikitlearn&logoColor=white" />
+  <img src="https://img.shields.io/badge/Plotly-3F4F75?style=flat&logo=plotly&logoColor=white" />
   <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white" />
   <img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat&logo=huggingface&logoColor=black" />
   <img src="https://img.shields.io/badge/SQLite-003B57?style=flat&logo=sqlite&logoColor=white" />
@@ -33,20 +36,21 @@
 
 ### 🚀 About Me
 
-I am a final-year **Bachelor of Cyber Security student at Deakin University** and a **STEM & Technology Educator** based in Ballarat, Victoria. My work sits at the intersection of cyber security, networking, software development, automation, troubleshooting, technical education, and local artificial intelligence.
+I am a final-year **Bachelor of Cyber Security student at Deakin University** and a **STEM & Technology Educator** based in Ballarat, Victoria. My work sits at the intersection of cyber security, networking, software development, automation, troubleshooting, technical education, local artificial intelligence, and applied data analysis.
 
 In my educator role, I help secondary students develop practical skills across programming, virtual reality, game design, digital technologies, laser cutting, 3D printing, and rapid prototyping. This experience has strengthened my ability to communicate technical concepts clearly, adapt to different users, solve problems under pressure, and document processes in a way that others can follow.
 
-Outside university and work, I design and develop practical tools that address real problems. My portfolio includes network discovery and port-scanning utilities, Windows crash diagnostics, malware hash analysis, API testing software, security auditing tools, productivity dashboards, AI-agent frameworks, and **LunahAI**, my publicly available local-first desktop AI assistant.
+Outside university and work, I design and develop practical tools that address real problems. My portfolio includes network discovery and port-scanning utilities, Windows crash diagnostics, malware hash analysis, API testing software, security auditing tools, productivity dashboards, AI-agent frameworks, **LunahAI**, my publicly available local-first desktop AI assistant, and a data-driven **Job Market Scanner** for matching resumes against live employment opportunities.
 
 - 🔐 Studying network security, secure coding, cryptography, object-oriented development, and computer networks
 - 🌐 Hands-on experience with Wireshark, Cisco Packet Tracer, TCP/IP, routing, packet analysis, and network diagnostics
-- 🛠️ Building applications in Python, C#, PowerShell, Bash, FastAPI, Tkinter, CustomTkinter, PyQt/PySide, and SQLite
+- 🛠️ Building applications in Python, C#, PowerShell, Bash, FastAPI, Streamlit, Tkinter, CustomTkinter, PyQt/PySide, and SQLite
+- 📊 Developing data-driven applications using live APIs, RSS feeds, TF-IDF matching, skill extraction, analytics dashboards, and interactive visualisations
 - 🤖 Developing local AI applications with model abstraction, offline inference, voice interaction, document context, privacy controls, and consumer GPU acceleration
 - 🖥️ Comfortable troubleshooting Windows and Linux systems, hardware, drivers, logs, storage, and networking issues
 - 📝 Focused on readable code, clear documentation, ethical testing, maintainability, and practical user outcomes
 - 🤝 Able to combine technical problem-solving with communication, teaching, collaboration, and user support
-- 💼 Interested in internships, graduate programs, and junior roles across cyber security, SOC/security analysis, networking, IT support, systems administration, security automation, and AI-enabled software development
+- 💼 Interested in internships, graduate programs, and junior roles across cyber security, SOC/security analysis, networking, IT support, systems administration, security automation, data analysis, and AI-enabled software development
 
 ---
 
@@ -82,6 +86,7 @@ The public repository now acts as the project's technical landing page, document
 
 - **Practical project ownership:** I take ideas from problem definition through architecture, development, testing, documentation, packaging, and release.
 - **Product thinking:** LunahAI requires consideration of user experience, privacy, deployment, hardware compatibility, maintainability, branding, documentation, and long-term extensibility—not only individual code features.
+- **Applied data problem-solving:** Job Market Scanner demonstrates my ability to combine resume parsing, live data collection, NLP-based matching, APIs, analytics, and user-facing visualisation into a practical application.
 - **Technical communication:** Teaching STEM has developed my ability to explain complex systems clearly to both technical and non-technical audiences.
 - **Security-minded development:** I consider authorisation, logging, error handling, data exposure, responsible use, access controls, and maintainability when building tools.
 - **Continuous learning:** I actively extend university concepts through labs, independent development, local AI experimentation, and hands-on infrastructure work.
@@ -93,6 +98,7 @@ The public repository now acts as the project's technical landing page, document
 | Project | Description | Technologies | Current State |
 |---------|-------------|--------------|---------------|
 | [🌙 LunahAI Desktop](https://github.com/HughKnightOCE/LunahAI-Desktop) | Local-first Windows AI assistant with offline model inference, document context, conversation branching, multi-agent workflows, voice interaction, security controls, and consumer GPU acceleration. | Python, CustomTkinter, Transformers, GGUF, Vosk, SAPI, DirectML | 🌐 Public pre-release available |
+| [🔭 Job Market Scanner](https://github.com/HughKnightOCE/Job-Market-Scanner) | AI-assisted job discovery and resume-matching application that aggregates live remote and international roles, ranks them against a candidate profile, identifies skill gaps, and visualises job-market trends. | Python, Streamlit, TF-IDF, Plotly, RSS, Gemini and Adzuna APIs | 🚀 Functional application — active development |
 | [🤖 Agent-Skill-Kit (ASK) v2.0](https://github.com/HughKnightOCE/Agent-Skill-Kit-ASK-) | Local-first, MCP-ready framework that gives AI agents reusable skills through a CLI, desktop GUI, YAML manifests, and automated GitHub Actions updates. | Python, MCP, PyQt6, YAML, GitHub Actions | 🚀 Active development — v2.0 |
 | [❗ BSOD Analyzer v0.9.1](https://github.com/HughKnightOCE/BSOD_Analyser) | Windows diagnostic application for BSOD event analysis, crash correlation, hardware checks, driver updates, live monitoring, and report generation. | Python, PowerShell, Tkinter, Windows Event Logs | ✅ Released with standalone executable |
 | [🌐 API Client Pro](https://github.com/HughKnightOCE/API-Client) | API testing platform with a CLI, FastAPI backend, web dashboard, saved requests, authentication, request chaining, GraphQL, mock endpoints, and performance metrics. | Python, FastAPI, Typer, Rich, HTML | 🧪 Functional platform — active refinement |
@@ -110,9 +116,10 @@ The public repository now acts as the project's technical landing page, document
 
 - Testing and expanding the public **LunahAI pre-release**, including model compatibility, Windows packaging, performance, security boundaries, documentation, and user experience.
 - Developing LunahAI's local model management, document workflows, multi-agent system, offline voice suite, privacy controls, and NVIDIA/AMD hardware support.
+- Expanding **Job Market Scanner** with stronger source coverage, resume parsing, contextual job matching, skill-gap insights, analytics, and export workflows.
 - Improving my strongest repositories with automated tests, screenshots, issue tracking, clearer release notes, and reproducible installation steps.
 - Completing my cyber security degree while preparing for industry placements, internships, graduate programs, and junior technical roles.
-- Expanding my practical capability in networking, incident analysis, secure software development, Linux, cloud fundamentals, defensive security operations, and local AI systems.
+- Expanding my practical capability in networking, incident analysis, secure software development, Linux, cloud fundamentals, defensive security operations, data analysis, and local AI systems.
 
 ---
 
