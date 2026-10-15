@@ -1,56 +1,60 @@
-# Hi, I'm Hugh Knight 👋
+# Hugh Knight 👋
 
-**IT Support Technician · Cyber Security Student · Python Developer**
+**IT Technician | Bachelor of Cyber Security Student | Automation & Defensive Security**
 
-Based in Ballarat, Victoria, Australia. I work in secondary education IT support while completing a Bachelor of Cyber Security at Deakin University. I build practical tools for troubleshooting, networking, defensive security, automation, and local-first AI.
+📍 Ballarat, Victoria, Australia
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&logo=linkedin)](https://www.linkedin.com/in/hugh-knight-australia)
+I work in IT support within Victorian secondary education and study a **Bachelor of Cyber Security at Deakin University**. My day-to-day work involves troubleshooting devices and services, supporting users, and improving repeatable IT processes. Outside work, I build tools in Python and PowerShell focused on diagnostics, networking, automation, and local-first software.
+
+I'm working towards a career in **security operations, incident response, and security engineering**, building on practical experience in IT systems and networking.
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hugh-knight-australia)
 [![GitHub](https://img.shields.io/badge/GitHub-HughKnightOCE-181717?style=flat&logo=github)](https://github.com/HughKnightOCE)
 
-## What I work on
+## What I do
 
-- **IT support and automation:** Windows troubleshooting, diagnostic utilities, scripting, reporting, and repeatable support workflows.
-- **Cyber security and networking:** network discovery, port and service analysis, file-hash scanning, log investigation, and security-minded development.
-- **Software development:** Python applications, desktop interfaces, APIs, command-line tools, data processing, and documentation.
-- **Local AI:** experimenting with offline inference, privacy-conscious workflows, voice tools, and modular desktop applications.
+- **IT operations:** Windows support, endpoint troubleshooting, user support, Microsoft 365, network connectivity, and technical documentation.
+- **Automation:** PowerShell and Python scripts that make diagnostics, reporting, and routine support tasks more consistent.
+- **Networking and defensive security:** Host and service discovery, log review, file-hash analysis, and investigation workflows.
+- **Software development:** Desktop utilities, APIs, data processing, and experiments with local AI.
 
-## Featured projects
+## Selected projects
 
-| Project | What it does |
+| Project | Focus |
 | --- | --- |
-| [🌙 LunahAI Desktop](https://github.com/HughKnightOCE/LunahAI-Desktop) | Local-first desktop AI assistant exploring offline inference, document context, voice interaction, and modular model backends. |
-| [🌐 Network Scanner](https://github.com/HughKnightOCE/NetworkScanner) | Python network diagnostic tool for host discovery, port scanning, logging, and scan reports. Use only on systems and networks you are authorised to test. |
-| [🧰 BSOD Analyzer](https://github.com/HughKnightOCE/BSOD_Analyser) | Windows troubleshooting tool for crash events, related log activity, hardware checks, and diagnostic reports. |
-| [🦠 Malware Scanner](https://github.com/HughKnightOCE/Malware_Scanner) | Desktop utility that hashes files and compares them with known-hash databases to help identify potential matches. |
-| [🔭 Job Market Scanner](https://github.com/HughKnightOCE/Job-Market-Scanner) | Application for collecting job listings, matching them against a candidate profile, and presenting skill and market insights. |
-| [🔌 API Client](https://github.com/HughKnightOCE/API-Client) | API testing and request-management project with command-line and web-oriented components. |
-| [💾 HDDSpinner](https://github.com/HughKnightOCE/HDDSpinner) | Small Windows utility that periodically accesses a selected drive to reduce repeated spin-down and wake-up cycles. It does not repair failing drives. |
+| [Network Scanner](https://github.com/HughKnightOCE/NetworkScanner) | Network discovery, port scanning, logs, and reporting for authorised environments. |
+| [BSOD Analyzer](https://github.com/HughKnightOCE/BSOD_Analyser) | Windows crash investigation and diagnostic reporting. |
+| [Malware Scanner](https://github.com/HughKnightOCE/Malware_Scanner) | File-hash comparison and potential malware-match identification. |
+| [LunahAI Desktop](https://github.com/HughKnightOCE/LunahAI-Desktop) | Exploring local-first AI, offline inference, and modular desktop workflows. |
+| [API Client](https://github.com/HughKnightOCE/API-Client) | API request testing and development tooling. |
+| [Job Market Scanner](https://github.com/HughKnightOCE/Job-Market-Scanner) | Job-listing analysis, candidate matching, and skill insights. |
+| [HDDSpinner](https://github.com/HughKnightOCE/HDDSpinner) | Windows drive-access utility for reducing repeated drive spin-down and wake-up cycles. |
 
-## Technologies
+## Technical toolkit
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=flat&logo=powershell&logoColor=white)
-![C Sharp](https://img.shields.io/badge/C%23-239120?style=flat&logo=csharp&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
-![Windows](https://img.shields.io/badge/Windows-0078D6?style=flat&logo=windows&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat&logo=sqlite&logoColor=white)
+**Languages and scripting:** Python · PowerShell · C# · SQL fundamentals
 
-Areas I work with include Windows and Linux troubleshooting, TCP/IP, DNS, Wi-Fi, network diagnostics, Microsoft 365, scripting, API integration, application packaging, and technical documentation. I continue to develop these skills through practical work, independent projects, and university study.
+**Systems and networking:** Windows · Linux · Microsoft 365 · TCP/IP · DNS · Wi-Fi · endpoint diagnostics
 
-## Current priorities
+**Development:** Git · APIs · SQLite · desktop applications · technical documentation
 
-- Improving the reliability, documentation, and usability of my most useful projects.
-- Building stronger testing, error handling, and release workflows.
-- Continuing my cyber security studies and developing practical defensive security and incident-analysis skills.
+**Developing further:** Security monitoring · incident investigation · log analysis · detection engineering · secure coding
 
-## A little about my approach
+## Where I'm heading
 
-I like building tools that solve real problems. I aim for practical functionality, readable code, useful error messages, clear documentation, and responsible testing. Security tools in this portfolio are intended for systems and networks I own or am explicitly authorised to assess.
+My near-term focus is on turning practical IT experience into a stronger defensive-security portfolio:
 
-## Connect
+1. **Build evidence:** Document realistic troubleshooting, network analysis, and security investigations using sanitised or lab-generated data.
+2. **Improve project quality:** Add clearer READMEs, reproducible setup instructions, testing, versioned releases, and screenshots where useful.
+3. **Deepen security skills:** Develop hands-on experience with event logs, SIEM workflows, incident triage, and detection logic in lab environments.
+4. **Keep learning:** Complete my Cyber Security degree and continue building skills across systems, networking, scripting, and security operations.
 
-- LinkedIn: [hugh-knight-australia](https://www.linkedin.com/in/hugh-knight-australia)
-- GitHub: [@HughKnightOCE](https://github.com/HughKnightOCE)
+These are areas I'm developing, not claims of professional SOC or incident-response experience.
 
-Thanks for visiting.
+## How I build
+
+I prefer tools that solve real problems: understandable code, clear output, sensible error handling, and documentation someone else can follow. Security-related tools are for systems and networks I own or am explicitly authorised to assess.
+
+---
+
+📫 **Connect:** [LinkedIn](https://www.linkedin.com/in/hugh-knight-australia) · [GitHub](https://github.com/HughKnightOCE)
